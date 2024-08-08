@@ -1,0 +1,166 @@
+.packagepage{
+    padding: 0;
+    
+}
+.mempackage h2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-style: italic;
+}
+.mempackage h1{
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 2rem;
+}
+.membershipdiv  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+margin-top: 2rem;
+}
+.memdiv1{
+   border-radius: 1rem;
+   background-color: rgb(249, 105, 105);
+  width: 18vw;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  animation: moveAndFadeBottomToTop 1s ease-in-out;
+  
+}
+.memdiv1 h4{
+    font-style: italic;
+    font-weight: bold;
+}
+.memdiv{
+    width: 40vw;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    animation: moveAndFadeLeftToRight 1s ease-in-out;
+}
+.pacakgebtn{
+    border-radius: 1rem ;
+    width: 20vw;
+    padding: 1rem;
+margin-left: 2.5rem;
+background: linear-gradient(white,rgb(247, 155, 7));
+}
+.personalpackage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.ppdiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 40vw;
+}
+.ppdiv2{
+    background-image: url('../assets/homeimgs/h1img.jpg');
+    background-size: cover; 
+    background-position: center; 
+    width: 70vw;
+    height: 85vh;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .ppdiv2::before {
+    content: "";
+    width: 60vw;
+    height: 85vh;
+    background: linear-gradient(black, gray);
+    opacity: 0.2;
+    position: absolute;
+  } 
+.ppdivs2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.plusprog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 2rem;
+    background: linear-gradient(white,rgb(254, 196, 196));
+    animation: moveAndFadeLeftToRight 1s ease-in-out;
+}
+.plusimg{
+    background-image: url('../assets/homeimgs/h1img.jpg');
+    background-size: cover; 
+    background-position: center;
+    width: 45vw;
+    height: 60vh; 
+}
+.pluscont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pluscont h3{
+    font-style: oblique;
+}
+
+.pthead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.personaltrainers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.ptimg{
+    border-radius: 10rem;
+    object-fit: cover;
+    transition: transform 1s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  .pt1 {
+    text-align: center;
+  }
+  
+  .ptimg:hover {
+    transform: scale(1.1);
+  }
+  
+  .trainer-details {
+    margin-top: 1rem;
+  }
+  
+  .trainer-details h3 {
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .trainer-details p {
+    margin: 3px 0;
+    font-size: 1rem;
+  }
+  
